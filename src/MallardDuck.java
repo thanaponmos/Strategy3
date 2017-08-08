@@ -1,8 +1,9 @@
 
 public class MallardDuck extends Duck {
 	 MallardDuck(){
+    flybehavior = new FlyWithWing();
 	quackbehavior = new Quack();
-	flybehavior = new FlyWithWing();
+	
 	}
 	@Override
 	void display() {
